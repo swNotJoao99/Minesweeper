@@ -1,3 +1,4 @@
+#Describes a tile
 class Tile:
 
     def __init__(self, img, x, y, isMine):
