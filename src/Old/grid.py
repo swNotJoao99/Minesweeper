@@ -2,6 +2,7 @@ from tile import Tile
 import pygame
 from random import randint
 
+#Describes the grid
 class Grid:
     def __init__(self, width ,height, bombNumber, window):
         self.matrix = [[0 for i in range(10)] for j in range(10)]
